@@ -40,7 +40,7 @@ class UserLayout extends React.PureComponent {
             <div className={styles.top}>
               <div className={styles.header}>
                 <Link to="/">
-                  <img alt="logo" className={styles.logo} src="http://localhost:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg" />
+                  <img alt="logo" className={styles.logo} src="http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg" />
                   <span className={styles.title}>PaaS云平台</span>
                 </Link>
               </div>

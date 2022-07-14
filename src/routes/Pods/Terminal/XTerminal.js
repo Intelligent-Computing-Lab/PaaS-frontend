@@ -67,7 +67,7 @@ class XTerminal extends Component {
 
     var startData = {Op: 'bind', SessionID: session.session_id, Data: "{\"namespace\":\"operations\",\"container\":\""+session.container+"\",\"pod\":\""+session.pod+"\", \"token\": \""+session.token+"\"}"};
     let sessionId = session.session_id
-    let termAddr = 'http://192.168.145.132:8080/ws/pods/console/exec?'+sessionId
+    let termAddr = 'http://81.70.216.174:8080/ws/pods/console/exec?'+sessionId
     var options = {};
     let socket = new SockJS(termAddr, "", options);
     socket.onopen = function() {

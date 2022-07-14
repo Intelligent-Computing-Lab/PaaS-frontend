@@ -284,7 +284,7 @@ class Detail extends PureComponent {
     return (
       <PageHeaderLayout
         title={'虚拟服务'}
-        logo={<img alt="" src="http://localhost:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg"/>}
+        logo={<img alt="" src="http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg"/>}
         content={description}
         extraContent={extra}
         loading={loading}

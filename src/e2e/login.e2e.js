@@ -10,7 +10,7 @@ describe('Login', () => {
 
   beforeEach(async () => {
     page = await browser.newPage();
-    await page.goto('http://localhost:8000/#/user/login');
+    await page.goto('http://81.70.216.174:8000/#/user/login');
     await page.evaluate(() => window.localStorage.setItem('antd-pro-authority', 'guest'));
   });
 

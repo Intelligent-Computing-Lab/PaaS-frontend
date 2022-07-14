@@ -64,7 +64,7 @@ class IngressDetail extends PureComponent {
     return (
       <PageHeaderLayout
         title="Ingress 详情"
-        logo={<img alt="" src="http://localhost:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg"/>}
+        logo={<img alt="" src="http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg"/>}
         content={description}
         extraContent={extra}
       >

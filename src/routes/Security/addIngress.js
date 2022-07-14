@@ -46,7 +46,7 @@ class AddIngress extends React.PureComponent {
           namespace: params.namespace,
         },
       });
-      if (window.location.host === 'localhost') {
+      if (window.location.host === '81.70.216.174') {
         this.setState({
           debug: true,
         });

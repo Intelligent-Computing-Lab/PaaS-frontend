@@ -284,7 +284,7 @@ class Index extends PureComponent {
                   actions={[<a onClick={() => onEdit(item)}>克隆</a>]}
                 >
                   <List.Item.Meta
-                    avatar={<Avatar src="http://localhost:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg" shape="square"
+                    avatar={<Avatar src="http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg" shape="square"
                                     size="large"/>}
                     title={<a onClick={() => onDetail(item.name, item.namespace, item.step)}>{item.display_name}</a>}
                     description={item.name}

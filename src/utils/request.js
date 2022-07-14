@@ -66,8 +66,8 @@ export default function request(url, options) {
     withCredentials: true,
   };
   // TODO 如果为本地环境，则加入8080 否则去掉
-  if (window.location.hostname == "localhost") {
-    url = 'http://192.168.145.132:8080' + url;
+  if (window.location.hostname == "81.70.216.174") {
+    url = 'http://81.70.216.174:8080' + url;
   }
   const newOptions = { ...defaultOptions, ...options };
   // newOptions.method = (newOptions.method).toUpperCase();

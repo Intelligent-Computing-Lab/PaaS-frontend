@@ -225,7 +225,7 @@ export default class SiderMenu extends PureComponent {
         >
           <Link to="/">
             <img
-              src='http://localhost:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg'
+              src='http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg'
               alt="logo"/>
             <h1>PaaS云平台</h1>
           </Link>

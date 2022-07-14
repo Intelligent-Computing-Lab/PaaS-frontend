@@ -40,7 +40,7 @@ class Step3 extends React.PureComponent {
     const { form, data, dispatch, submitting, match } = this.props;
     const { projectInfo, deploymentInfo } = data;
     let debug = false;
-    if (window.location.host == 'localhost') {
+    if (window.location.host == '81.70.216.174') {
       debug = true;
     }
     var ports = [];
