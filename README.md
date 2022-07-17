@@ -18,10 +18,7 @@ $  yarn --update-checksums
 ```
 ## 3.设置代码允许ip访问（不然只能localhost访问）
 
-项目依赖安装好后，找到“node_modules/webpack-dev-server/lib/Server.js”，将checkHost方法的返回值改为true（因版本不同，可能该函数会调用别的函数，总之将最终的真正调用的返回值修改即可）
-
 ```
-$ 修改node_modules/webpack-dev-server/lib/Server.js 
 $ 全局替换81.70.216.174为自己的服务器ip即可
 ```
 
