@@ -319,7 +319,7 @@ class Index extends PureComponent {
                   actions={[<a onClick={() => this.showModal('one', item.name)}>修改时间</a>]}
                 >
                   <List.Item.Meta
-                    avatar={<Avatar src="http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg" shape="square"
+                    avatar={<Avatar src="http://81.70.216.174:8080/static/avatar.1c09839e.jpg" shape="square"
                                     size="large"/>}
                     title={<a onClick={() => onDetail(item.name, item.namespace, item.step)}>{item.display_name}</a>}
                     description={item.name}

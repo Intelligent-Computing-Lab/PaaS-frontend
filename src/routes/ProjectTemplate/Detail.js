@@ -486,7 +486,7 @@ class Detail extends PureComponent {
     return (
       <PageHeaderLayout
         title={project ? '项目名称：' + project.name : ''}
-        logo={<img alt="" src="http://81.70.216.174:8000/src/routes/Dashboard/UserLanding/images/avatar.jpg"/>}
+        logo={<img alt="" src="http://81.70.216.174:8080/static/avatar.1c09839e.jpg"/>}
         action={auditRole && project && auditRole == 'true' && project.audit_state == 1 ? action : function() {
           if (project && project.audit_state != 3) {
             return (<span> </span>);
